@@ -107,3 +107,52 @@
 //     }
 // }
 
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         float rad = sc.nextFloat();
+//         float area = 3.14f * rad * rad;
+
+//          System.out.println(area);
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         float a = 12.11f;
+//         // int b = a;
+//         int b = (int)a;
+
+//         System.out.println(b);
+//     }
+// }
+
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         Scanner sc = new Scanner(System.in);
+//        char ch = 'a';
+//        int number = ch;
+//         System.out.println(number);
+//     }
+// }/
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         char a = 'a';
+//         char b = 'b';
+//         System.out.println((int)(a));
+//         System.out.println((int)(b));
+//         System.out.println((b-a));
+//     }
+// }
