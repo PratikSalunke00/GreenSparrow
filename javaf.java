@@ -187,15 +187,98 @@
 // }
 
 
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         int a = 8;
+//         int b = 3;
+//         System.out.println(a+b);
+//         System.out.println(a-b);
+//         System.out.println(a*b);
+//         System.out.println(a/b);
+//         System.out.println(a%b);
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         int a = 8;
+//         int b = ++a;
+//         System.out.println(a);
+//         System.out.println(b);
+//     }
+// }
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         int a = 8;
+//         int b = a++;
+//         System.out.println(a);
+//         System.out.println(b);
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         int a = 8;
+//         int b = --a;
+//         System.out.println(a);
+//         System.out.println(b);
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         int a = 8;
+//         int b = a--;
+//         System.out.println(a);
+//         System.out.println(b);
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         int a = 8;
+//         int b = 5;
+//         System.out.println(a==b);
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         int a = 8;
+//         int b = 8;
+//         System.out.println(a==b);
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         int a = 8;
+//         int b = 5;
+//         System.out.println(a!=b);
+//     }
+// }
+
+
 import java.util.*;
 public class javaf {
     public static void main (String args[]){
         int a = 8;
-        int b = 3;
-        System.out.println(a+b);
-        System.out.println(a-b);
-        System.out.println(a*b);
-        System.out.println(a/b);
-        System.out.println(a%b);
+        int b = 8;
+        System.out.println(a!=b);
     }
 }
