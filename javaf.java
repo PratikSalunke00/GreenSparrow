@@ -274,11 +274,52 @@
 // }
 
 
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         int a = 8;
+//         int b = 8;
+//         System.out.println(a!=b);
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         System.out.println((3>2) && (5>3));
+//         System.out.println((3<2) && (5>3));
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         System.out.println((3>2) || (5<3));
+//         System.out.println((3<2) || (5<3));
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         System.out.println(!(3>2));    }
+// }
+
+
 import java.util.*;
 public class javaf {
     public static void main (String args[]){
-        int a = 8;
-        int b = 8;
-        System.out.println(a!=b);
+        int a = 10;
+        a = a + 10;
+        a+=10;
+        System.out.println(a); 
+
+        int b = 5;
+        b= b-5;
+        b*=5;
+        System.out.println(b); 
     }
 }
