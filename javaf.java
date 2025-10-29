@@ -173,16 +173,29 @@
 // }
 
 
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         byte b=6;
+//         // byte a= b*2;
+//         byte a= (byte) (b*2);
+
+
+
+//         System.out.println(a);
+//     }
+// }
+
 
 import java.util.*;
 public class javaf {
     public static void main (String args[]){
-        byte b=6;
-        // byte a= b*2;
-        byte a= (byte) (b*2);
-
-
-
-        System.out.println(a);
+        int a = 8;
+        int b = 3;
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+        System.out.println(a%b);
     }
 }
