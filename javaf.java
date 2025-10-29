@@ -156,3 +156,33 @@
 //         System.out.println((b-a));
 //     }
 // }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         int a = 10;
+//         float b = 20.25f;
+//         long c = 25;
+//         double d = 30;
+//         double ans = a+b+c+d;
+
+//         System.out.println(ans);
+//     }
+// }
+
+
+
+import java.util.*;
+public class javaf {
+    public static void main (String args[]){
+        byte b=6;
+        // byte a= b*2;
+        byte a= (byte) (b*2);
+
+
+
+        System.out.println(a);
+    }
+}
