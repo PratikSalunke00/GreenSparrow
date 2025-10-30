@@ -309,17 +309,97 @@
 // }
 
 
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         int a = 10;
+//         a = a + 10;
+//         a+=10;
+//         System.out.println(a); 
+
+//         int b = 5;
+//         b= b-5;
+//         b*=5;
+//         System.out.println(b); 
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         int age = 22;
+//         if (age>18) {
+//         System.out.println("u are adult"); 
+//         } else {
+//             System.out.println("you cant drive"); 
+//         }
+//     }
+// }
+
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         int a = 2;
+//         int b = 4;
+
+//         if (a>=b) {
+//         System.out.println("a is largest of b"); 
+//         } else {
+//             System.out.println("b is largest of a"); 
+//         }
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//      Scanner sc = new Scanner(System.in);
+//      int p = sc.nextInt();
+
+//      if (p % 2 == 0 ) {
+//         System.out.println("Even");
+//      } else {
+//         System.out.println("ODD");
+//      }
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         int age = 13 ;
+
+//         if (age >=18) {
+//             System.out.println("adult");
+//         } else if (age>=13 && age <18) {
+//             System.out.println("teenager");
+//         } else {
+//             System.out.println("Child");
+//         }
+//     }
+// }
+
+
+
 import java.util.*;
 public class javaf {
     public static void main (String args[]){
-        int a = 10;
-        a = a + 10;
-        a+=10;
-        System.out.println(a); 
+        Scanner sc = new Scanner(System.in);
+        int income = sc.nextInt();
+        int tax;
 
-        int b = 5;
-        b= b-5;
-        b*=5;
-        System.out.println(b); 
+        if (income < 500000) {
+            tax = 0;
+        } else if (income >= 500000 && income<1000000) {
+            tax = (int) (income * 0.2);
+        } else {
+            tax = (int) (income * 0.3);
+        }
+        System.out.println("your tax is:" + tax);
     }
 }
