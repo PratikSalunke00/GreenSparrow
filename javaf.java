@@ -404,18 +404,58 @@
 // }
 
 
-import java.util.*;
-public class javaf {
-    public static void main (String args[]){
-    int a = 1;
-    int b =8;
-    int c =6;
-    if ((a>=b) && (a>=c)) {
-        System.out.println("a is large");
-    } else if ((b>a) && (b>c)) {
-        System.out.println("b is large");
-    } else {
-        System.out.println("c is large");
-    }
-    }
-}
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//     int a = 1;
+//     int b =8;
+//     int c =6;
+//     if ((a>=b) && (a>=c)) {
+//         System.out.println("a is large");
+//     } else if ((b>a) && (b>c)) {
+//         System.out.println("b is large");
+//     } else {
+//         System.out.println("c is large");
+//     }
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//     int number = 4;
+
+//     String type = ((number%2) == 0) ? "even" : "odd";
+//     System.out.println(type);
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//     int marks = 35;
+
+//     String status = (marks >= 33) ? "pass" : "try try but dont cry";
+//     System.out.println(status);
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         int number = 2;
+
+//         switch(number) {
+//             case 1 : System.out.println("Samosa");
+//                 break;
+//             case 2 : System.out.println("burger");
+//                 break;
+//             case 3 : System.out.println("mango shake");
+//                 break;
+//             default : System.out.println("we wake up");
+//         }
+//     }
+// }
