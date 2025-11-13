@@ -338,7 +338,6 @@
 // }
 
 
-
 // import java.util.*;
 // public class javaf {
 //     public static void main (String args[]){
@@ -456,6 +455,34 @@
 //             case 3 : System.out.println("mango shake");
 //                 break;
 //             default : System.out.println("we wake up");
+//         }
+//     }
+// }
+
+
+// import java.util.*;
+// public class javaf {
+//     public static void main (String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter a : ");
+//         int a = sc.nextInt();
+//         System.out.println("enter b : ");
+//         int b = sc.nextInt();
+//         System.out.println("enter character : ");
+//         char operator = sc.next().charAt(0);
+
+//         switch(operator) {
+//             case '+' : System.out.println(a+b);
+//                         break;
+//             case '-' : System.out.println(a-b); 
+//                         break;
+//             case '*' : System.out.println(a*b);
+//                         break;
+//             case '/' : System.out.println(a/b); 
+//                         break;
+//             case '%' : System.out.println(a%b); 
+//                         break;
+//             default : System.out.println("wrong operator");
 //         }
 //     }
 // }
